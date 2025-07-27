@@ -5,7 +5,7 @@ import {Logo} from '../assets/img'
 const Navbar = () => {
   return (
     <div className='navbar w-[15%] bg-[#363740]'>
-      <div className="flex gap-[12px]  pb-[40px] pr-[41px] pl-[30px]">
+      <div className="flex gap-[12px]  pb-[40px] pl-[30px]">
      <img className='pt-[37px]' src={Logo} alt=""/>
      <p className='pt-[41px] font-semibold text-[19px] leading-[100%] text-[#A4A6B3]'>Dashboard Kit</p>
      </div>
