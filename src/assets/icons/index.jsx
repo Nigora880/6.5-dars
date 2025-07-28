@@ -68,10 +68,10 @@ export const NotificationIcon = () => <svg width="18" height="19" viewBox="0 0 1
 
 export const AddIcon = () => <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="24" height="24" rx="8" fill="#F0F1F7"/>
-<path d="M12 7V17" stroke="#9FA2B4" stroke-width="2" stroke-linecap="round"/>
-<path d="M17 12L7 12" stroke="#9FA2B4" stroke-width="2" stroke-linecap="round"/>
+<path d="M12 7V17" stroke="#9FA2B4" strokeWidth="2" strokeLinecap="round"/>
+<path d="M17 12L7 12" stroke="#9FA2B4" strokeWidth="2" strokeLinecap="round"/>
 </svg>
 
-export const TickIcon = () =>  <svg class="hidden peer-checked:block w-3 h-3 text-white" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24">
-<path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+export const TickIcon = () =>  <svg className="hidden peer-checked:block w-3 h-3 text-white" fill="none" stroke="currentColor" strokeWidth="3" viewBox="0 0 24 24">
+<path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
 </svg>

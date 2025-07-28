@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Strong = ({title, extraclass}) => {
+const Strong = ({title, extraclassName}) => {
   return (
-    <strong className={`font-bold text-[19px] text-[#252733] ${extraclass}`}>{title}</strong>    
+    <strong className={`font-bold text-[19px] text-[#252733] ${extraclassName}`}>{title}</strong>    
 
   )
 }
